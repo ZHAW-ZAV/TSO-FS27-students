@@ -1,0 +1,7 @@
+Exact copy of the previously referenced capitals.csv, retrieved 2026-11-24.
+Source: https://drive.google.com/uc?id=1U9IbkK9cT94bJlJ1Ie1VLfqWFv5HOZBM
+SHA256: f49cdde02219e074f03bf8f734855fd0477c6b9510ab8f7918fc502837e0475d
+No edits were made to this file or the two pre-existing datasets. Capital coordinates
+are plotting anchors, not locations of aviation emissions. Historical names are
+normalized in memory by the notebooks. CANARY ISLANDS has no matching capital
+entry and is reported separately instead of assigning an invented location.

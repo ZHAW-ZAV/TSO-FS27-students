@@ -1,0 +1,23 @@
+# Local environments and settings
+.venv/
+venv/
+venv.bak/
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Python, notebook and OS caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Generated figures: keep the supplied explanatory queue diagram.
+**/figures/*
+!09_qpa/figures/mmc_siko.png
+# Optional local raw/generated working material
+inputs/
+generated/
+generated_unsupervised_ml/

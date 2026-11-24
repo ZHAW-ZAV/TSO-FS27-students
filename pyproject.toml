@@ -1,0 +1,29 @@
+[project]
+name = "tso-fs27-students"
+version = "0.1.0"
+description = "Traffic System Operations FS27: student exercises and examples"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "numpy==2.2.3",
+    "pandas==2.2.3",
+    "scipy==1.15.2",
+    "matplotlib==3.10.0",
+    "statsmodels==0.15.0",
+    "pmdarima==2.1.1",
+    "scikit-learn==1.8.0",
+    "fitter==1.6.0",
+    # fitter 1.6 imports pkg_resources; keep the tested compatibility provider.
+    "setuptools==75.8.2",
+    "simpy==4.1.1",
+    "tqdm==4.67.1",
+    "gdown==5.2.0",
+    "plotly==6.5.0",
+    "kaleido==1.2.0",
+    "ipykernel==6.29.5",
+    "ipywidgets==8.1.7",
+    "nbformat==5.10.4",
+]
+
+[tool.uv]
+default-groups = []
